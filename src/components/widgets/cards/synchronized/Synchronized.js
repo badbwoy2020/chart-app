@@ -68,9 +68,9 @@ function Synchronized() {
             show: false,
           },
 
-          tooltip: {
-            followCursor: false,
-          },
+          // tooltip: {
+          //   followCursor: false,
+          // },
           dataLabels: {
             enabled: false,
           },
