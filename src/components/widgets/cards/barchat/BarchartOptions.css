@@ -1,0 +1,48 @@
+.barchartOptions {
+  display: flex;
+  position: absolute;
+  bottom: 0.35rem;
+  left: 0;
+  margin-left: 4rem;
+}
+
+.barchartOptions__info-right {
+  margin-left: 1.2rem;
+}
+.barchartOptions__info-left {
+  margin-right: 1.2rem;
+}
+
+.barchartOptions__text-container {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  margin-top: 1rem !important;
+  margin-bottom: 0.35rem;
+}
+
+.barchartOptions__text-container p {
+  border-radius: 999px;
+  padding: 0.35rem;
+}
+
+.barchartOptions__text-container h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  color: #a0a0a0;
+}
+
+.barchartOptions__info-left h4,
+.barchartOptions__info-right h4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 0.45rem;
+}

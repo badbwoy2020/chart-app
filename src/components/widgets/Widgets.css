@@ -1,0 +1,53 @@
+.widgets {
+  flex: 1;
+}
+
+.widgets__header {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  max-width: 100%;
+}
+
+.widgets__header-input {
+  background: #21222d;
+  border-radius: 8px;
+  margin-right: auto;
+}
+
+.widgets__header-input input {
+  line-height: 3rem;
+  background: transparent;
+  width: 54rem;
+  border: 0;
+  outline: none;
+  color: white;
+}
+
+.widgets__header-icons {
+  display: flex;
+  gap: 0.6rem;
+  cursor: pointer;
+  margin-right: 1rem;
+  flex: 0.45;
+}
+
+.widgets__items-flex {
+  display: flex;
+  max-width: 75.6rem;
+  margin: 1rem;
+}
+
+.widgets__items-flex__big {
+  display: flex;
+  max-width: 86.2rem;
+  margin: 1rem;
+}
+
+.widgets__items-flex-mid {
+  display: flex;
+  max-width: 87.3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 3rem;
+}

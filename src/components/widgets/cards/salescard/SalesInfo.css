@@ -1,0 +1,56 @@
+.salesInfo {
+  background: #171821;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 1rem;
+  padding: 1rem;
+  cursor: pointer;
+  transform: scale(1);
+}
+
+.salesInfo:hover {
+  transform: scale(1.1);
+  transition: ease-out 0.5s all;
+}
+
+.salesInfo .salesInfo-amount {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  color: #ffffff;
+  margin: 0.75rem 0;
+}
+
+.salesInfo h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  color: #e8e8e8;
+}
+
+.salesInfo-subtitle {
+  display: flex;
+  align-items: center;
+  margin-left: -0.85rem !important;
+  margin-top: 0.4rem;
+}
+
+.salesInfo .salesInfo-subtitle p {
+  border-radius: 999px;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: -0.5rem;
+  margin-left: 0.2rem;
+}
+
+.salesInfo .salesInfo-subtitle > h4 {
+  font-size: 0.85rem;
+  font-family: "Inter";
+  word-break: keep-all;
+}

@@ -1,0 +1,19 @@
+.synchronized {
+  flex: 0.35;
+  background: #21222d;
+  border-radius: 1rem;
+  padding: 0.65rem;
+  margin-right: 8rem !important;
+  max-width: 24.1rem;
+  height: 22.8rem;
+  position: relative;
+}
+
+.synchronized small {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  color: #ffffff;
+}

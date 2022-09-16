@@ -1,0 +1,49 @@
+.percentage {
+  flex: 0.3;
+  background-color: #21222d;
+  padding: 1rem;
+  width: 23.8rem;
+  height: 24.7rem;
+  border-radius: 1rem;
+}
+
+.percentage:not(:last-child) {
+  margin-bottom: 0.75rem;
+}
+
+.percentage h4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  color: #ffffff;
+}
+
+.percentage small {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  color: #87888c;
+}
+
+.percentage p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  color: #a9dfd8;
+}
+
+.percentage h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.1rem;
+  line-height: 1.3rem;
+  color: #87888c;
+  margin-bottom: 3rem;
+}

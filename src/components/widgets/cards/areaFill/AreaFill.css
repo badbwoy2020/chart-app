@@ -1,0 +1,19 @@
+.areaFill {
+  background: #21222d;
+  flex: 1;
+  max-width: 53rem;
+  height: 23.3rem;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-left: 1rem;
+  margin-right: 8rem !important;
+}
+
+.areaFill h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  color: #ffffff;
+}

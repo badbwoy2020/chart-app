@@ -1,0 +1,49 @@
+.tableRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  transform: scale(1);
+}
+
+.tableRow:hover {
+  transform: scale(1.1);
+  transition: ease-in-out 0.5s all;
+  width: 85%;
+}
+
+.tableRow__number {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.3rem;
+  line-height: 1.6rem;
+  color: #ffffff;
+}
+
+.tableRow__name {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  color: #ffffff;
+}
+
+.tableRow__progress {
+  background-color: #2b2b36;
+  width: 15.416rem;
+  height: 0.21rem;
+}
+
+.tableRow__rate {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  text-align: center;
+  padding: 0.25rem;
+  border-radius: 0.3rem;
+  margin: 0.65rem 0;
+}

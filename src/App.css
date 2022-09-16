@@ -1,0 +1,15 @@
+.app__body {
+  margin: 10px auto;
+  max-width: 96.1rem;
+  display: flex;
+  background: #171821;
+  box-shadow: 0px 30px 60px rgba(0, 0, 0, 0.2);
+  border-radius: 24px;
+  scroll-behavior: smooth;
+  min-height: 100vh;
+}
+
+.card-styles {
+  width: 47.25rem;
+  padding: 1.5rem 2rem;
+}
