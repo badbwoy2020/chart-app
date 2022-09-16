@@ -64,11 +64,11 @@ function Percentage() {
               fontSize: "22px",
             },
           },
-          grid: {
-            padding: {
-              top: -10,
-            },
-          },
+          // grid: {
+          //   padding: {
+          //     top: -10,
+          //   },
+          // },
 
           fill: {
             // type: "gradient",
